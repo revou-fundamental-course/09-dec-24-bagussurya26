@@ -45,7 +45,7 @@
   cursor: auto;
   padding: 0.5rem 1rem;
   border-color: var(--dl-color-theme-neutral-dark);
-  border-width: 1px;
+  border-width: 2px;
   border-radius: 4px;
   background-color: var(--dl-color-theme-neutral-light);
 }
@@ -80,7 +80,7 @@
   align-self: stretch;
   text-align: center;
   border-color: var(--dl-color-theme-neutral-dark);
-  border-width: 1px;
+  border-width: 2px;
   border-radius: var(--dl-radius-radius-inputradius);
   background-color: var(--dl-color-theme-neutral-light);
 }

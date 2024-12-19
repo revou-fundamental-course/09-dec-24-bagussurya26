@@ -8,145 +8,6 @@
   <meta charset="utf-8" />
   <meta property="twitter:card" content="summary_large_image" />
 
-  <style data-tag="reset-style-sheet">
-    html {
-      line-height: 1.15;
-    }
-
-    body {
-      margin: 0;
-    }
-
-    * {
-      box-sizing: border-box;
-      border-width: 0;
-      border-style: solid;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    p,
-    li,
-    ul,
-    pre,
-    div,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    figure,
-    blockquote,
-    figcaption {
-      margin: 0;
-      padding: 0;
-    }
-
-    button {
-      background-color: transparent;
-    }
-
-    button,
-    input,
-    optgroup,
-    select,
-    textarea {
-      font-family: inherit;
-      font-size: 100%;
-      line-height: 1.15;
-      margin: 0;
-    }
-
-    button,
-    select {
-      text-transform: none;
-    }
-
-    button,
-    [type="button"],
-    [type="reset"],
-    [type="submit"] {
-      -webkit-appearance: button;
-      color: inherit;
-    }
-
-    button::-moz-focus-inner,
-    [type="button"]::-moz-focus-inner,
-    [type="reset"]::-moz-focus-inner,
-    [type="submit"]::-moz-focus-inner {
-      border-style: none;
-      padding: 0;
-    }
-
-    button:-moz-focus,
-    [type="button"]:-moz-focus,
-    [type="reset"]:-moz-focus,
-    [type="submit"]:-moz-focus {
-      outline: 1px dotted ButtonText;
-    }
-
-    a {
-      color: inherit;
-      text-decoration: inherit;
-    }
-
-    input {
-      padding: 2px 4px;
-    }
-
-    img {
-      display: block;
-    }
-
-    details {
-      display: block;
-      margin: 0;
-      padding: 0;
-    }
-
-    summary::-webkit-details-marker {
-      display: none;
-    }
-
-    [data-thq="accordion"] [data-thq="accordion-content"] {
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.3s ease-in-out;
-      padding: 0;
-    }
-
-    [data-thq="accordion"] details[data-thq="accordion-trigger"][open]+[data-thq="accordion-content"] {
-      max-height: 300vh;
-    }
-
-    details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {
-      transform: rotate(180deg);
-    }
-
-    html {
-      scroll-behavior: smooth
-    }
-  </style>
-  <style data-tag="default-style-sheet">
-    html {
-      font-family: Inter;
-      font-size: 16px;
-    }
-
-    body {
-      font-weight: 400;
-      font-style: normal;
-      text-decoration: none;
-      text-transform: none;
-      letter-spacing: normal;
-      line-height: 1.15;
-      color: var(--dl-color-theme-neutral-dark);
-      background: var(--dl-color-theme-neutral-light);
-
-      fill: var(--dl-color-theme-neutral-dark);
-    }
-  </style>
-  <link rel="stylesheet" href="https://unpkg.com/animate.css@4.1.1/animate.css" />
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
     data-tag="font" />
@@ -157,7 +18,7 @@
     href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
     data-tag="font" />
   <link rel="stylesheet" href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css" />
-  <link rel="stylesheet" href="CSS/style.css" />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
@@ -165,23 +26,23 @@
   <div class="home-container">
 
     <!--Navbar component-->
-    <div class="navbar2-wrapper">
-      <header id="Navbar2" class="navbar2-container navbar2root-class-name">
+    <nav class="navbar2-wrapper">
+      <header id="navbar2" class="navbar2-container navbar2root-class-name">
         <header data-thq="thq-navbar" class="navbar2-navbar-interactive">
           <img alt="Your Company Name" src="public/logo-revou.png" class="navbar2-image1" />
           <div data-thq="thq-navbar-nav" class="navbar2-desktop-menu">
             <nav class="navbar2-links1">
-              <a href="#Navbar2" id="home" class="thq-body-small thq-link">
+              <a href="#navbar2" id="home" class="thq-body-small thq-link">
                 <fragment class="home-fragment10">
                   <span class="home-text10">Home</span>
                 </fragment>
               </a>
-              <a href="#Features23" id="our-package" class="thq-body-small thq-link">
+              <a href="#features23" id="our-package" class="thq-body-small thq-link">
                 <fragment class="home-fragment11">
                   <span class="home-text11">Our Package</span>
                 </fragment>
               </a>
-              <a href="#Contact3" id="call-us" class="thq-body-small thq-link">
+              <a href="#contact3" id="call-us" class="thq-body-small thq-link">
                 <fragment class="home-fragment12">
                   <span class="home-text12">Call Us</span>
                 </fragment>
@@ -208,17 +69,17 @@
                 </div>
               </div>
               <nav class="navbar2-links2">
-                <a href="#Navbar2" class="thq-body-small thq-link">
+                <a href="#navbar2" class="thq-body-small thq-link">
                   <fragment class="home-fragment10">
                     <span class="home-text10">Home</span>
                   </fragment>
                 </a>
-                <a href="#Features23" class="thq-body-small thq-link">
+                <a href="#features23" class="thq-body-small thq-link">
                   <fragment class="home-fragment11">
                     <span class="home-text11">Our Package</span>
                   </fragment>
                 </a>
-                <a href="#Contact3" class="thq-body-small thq-link">
+                <a href="#contact3" class="thq-body-small thq-link">
                   <fragment class="home-fragment12">
                     <span class="home-text12">Call Us</span>
                   </fragment>
@@ -243,14 +104,14 @@
           </div>
         </header>
       </header>
-    </div>
+    </nav>
 
     <!--Hero component-->
-    <div class="hero7-wrapper">
-      <div id="Hero7" class="hero7-header23 thq-section-padding">
+    <section class="hero7-wrapper">
+      <div id="hero7" class="hero7-header23 thq-section-padding">
         <div class="hero7-max-width thq-section-max-width">
           <div class="hero7-content">
-            <h1 class="hero7-text1 thq-heading-1">
+            <h1 class="hero7-area1 thq-heading-1">
               <fragment class="home-fragment14">
                 <span class="home-text14">Your Trusted Travel Agent's</span>
               </fragment>
@@ -267,12 +128,14 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <!--Testimonial component-->
-    <div class="testimonial7-wrapper">
+    <section class="testimonial7-wrapper">
       <div class="testimonial7-container1 thq-section-padding testimonial7root-class-name">
         <div class="testimonial7-max-width thq-section-max-width">
+
+          <!-- Testimonial -->
           <div class="testimonial7-container2">
             <div data-thq="slider" data-loop="true" data-autoplay="true" data-navigation="false" data-pagination="false"
               class="testimonial7-slider swiper">
@@ -446,13 +309,15 @@
               <div data-thq="slider-button-next" class="testimonial7-slider-button-next swiper-button-next"></div>
             </div>
           </div>
+
+          <!-- Contact Us -->
           <div class="testimonial7-container6">
             <div class="testimonial7-section-title thq-card">
-              <span class="testimonial7-text19 thq-body-small">
+              <!-- <span class="testimonial7-text19 thq-body-small">
                 <fragment class="home-fragment20">
                   <span class="home-text20">Default value</span>
                 </fragment>
-              </span>
+              </span> -->
               <h2 class="thq-heading-2">
                 <fragment class="home-fragment21">
                   <span class="home-text21">Contact Us</span>
@@ -511,10 +376,10 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <!--Features component-->
-    <div class="features24-wrapper">
+    <!--Exclusive Packages-->
+    <section class="features24-wrapper">
       <div class="features24-container1 thq-section-padding">
         <div class="features24-container2 thq-section-max-width">
           <div class="features24-content1">
@@ -594,11 +459,11 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <!--Packages component-->
-    <div class="features23-wrapper">
-      <div id="Features23" class="features23-layout349 thq-section-padding">
+    <section class="features23-wrapper">
+      <div id="features23" class="features23-layout349 thq-section-padding">
         <div class="features23-max-width thq-section-max-width">
           <div class="features23-container1">
             <h2 class="thq-heading-2">
@@ -727,11 +592,11 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <!--Contact component-->
-    <div class="contact3-wrapper">
-      <div id="Contact3" class="contact3-contact20 thq-section-padding">
+    <section class="contact3-wrapper">
+      <div id="contact3" class="contact3-contact20 thq-section-padding">
         <div class="contact3-max-width thq-section-max-width">
           <div class="contact3-section-title">
             <span class="thq-body-small">
@@ -839,10 +704,10 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <!--Footer component-->
-    <div class="footer15-wrapper">
+    <footer class="footer15-wrapper">
       <footer class="footer15-container1 thq-section-padding">
         <div class="footer15-max-width thq-section-max-width">
           <div class="footer15-content">
@@ -940,7 +805,7 @@
           </div>
         </div>
       </footer>
-    </div>
+    </footer>
 
   </div>
 
